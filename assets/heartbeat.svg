@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="66" viewBox="0 0 520 66" role="img" aria-labelledby="title desc">
+  <title id="title">请再次震动那颗不服输的心脏</title>
+  <desc id="desc">Let that unyielding heart beat once more.</desc>
+
+  <rect width="520" height="66" fill="#ffffff"></rect>
+
+  <!-- 中文 -->
+  <text x="386" y="27" text-anchor="end" fill="#202020" font-family="'Noto Serif SC', 'Source Han Serif SC',
+                 'Songti SC', 'STSong', 'SimSun', serif" font-size="21" font-weight="500" letter-spacing="1.6">
+    请再次震动那颗不服输的心脏
+  </text>
+
+  <!-- 向左倾斜 15° 的跳动红心 -->
+  <g transform="translate(403 19) rotate(-15)">
+    <g>
+      <path d="M0 10
+           C-2 7 -12 2 -12 -5
+           C-12 -12 -3 -14 0 -8
+           C3 -14 12 -12 12 -5
+           C12 2 2 7 0 10Z" fill="#c93645"></path>
+
+      <animateTransform attributeName="transform" type="scale" values="1;1.13;1;1.2;1" keyTimes="0;0.12;0.25;0.38;1" dur="1.6s" repeatCount="indefinite"></animateTransform>
+    </g>
+  </g>
+
+  <!-- 英文 -->
+  <text x="260" y="55" text-anchor="middle" fill="#737373" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-style="italic" letter-spacing="0.6">
+    Let that unyielding heart beat once more.
+  </text>
+</svg>
